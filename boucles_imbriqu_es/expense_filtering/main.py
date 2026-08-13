@@ -9,7 +9,6 @@ travel_costs = [[500, 150, 100, 50],[200, 300, 120, 80],
 # List to store processed expenses
 processed_expenses = []
 i = 0
-#liste = []
 while i < len(travel_costs):
     liste = []
     j = 0
@@ -19,9 +18,7 @@ while i < len(travel_costs):
         else:
             liste.append(travel_costs[i][j])
         j += 1
-    #print(liste)
     processed_expenses.append(liste)
-    #liste.clear()
     i += 1
 
 # Testing
